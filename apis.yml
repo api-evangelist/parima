@@ -1,7 +1,27 @@
 aid: parima
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parima.png
 name: Parima
-description: Parima is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PARIMA is a protein-innovation company that develops high-quality cultivated
+  foods directly from animal cells, formed from the combination of Gourmey and
+  Vital Meat. It combines expertise in cell cultivation, bioprocessing, and
+  culinary development to produce cultivated meat at scale, and in October 2025
+  became the first European company granted regulatory approval for cultivated
+  protein. Its culinary brand, Gourmey, focuses on premium cultivated meats
+  co-developed with Michelin-starred chefs. Surfaced as an Earlybird portfolio
+  company and added to the API Evangelist network; it publishes no public API,
+  developer platform, or software product surface as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/parima/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cultivated Meat
+- Food Technology
+- Biotechnology
+- Alternative Protein
+- Cell Cultivation
+- Protein
 apis: []
+common:
+- type: Website
+  url: https://parima.bio/
+- type: Blog
+  url: https://parima.bio/blogs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    Cultivated-meat / protein-innovation food-biotech company (parima.bio,
+    culinary brand Gourmey). No public API, developer portal, or software
+    surface found via search — no API artifacts applicable. Completed pass.
